@@ -1,6 +1,9 @@
 # System
 pipewire-audio
 pavucontrol
+
+
+# Backup
 rsync
 
 
@@ -8,13 +11,16 @@ rsync
 hyprland
 mako # AUR
 
+
 # Applications
 firefox
 kitty
+
 
 # Extra
 gtk3 # For kitty to work (validate)
 tldr
 libnotify # Testing mako
 
-
+# Uncategorized
+zsh
