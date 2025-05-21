@@ -6,7 +6,7 @@ rs-backup:
 # Restore
 # TODO
 
-$ Sync stow
+# Sync stow
 
 ssync:
 	stow -D . && stow .  # is symlink removal necessary?
