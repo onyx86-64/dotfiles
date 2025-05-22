@@ -9,7 +9,7 @@ rsync
 
 # Display Manager
 hyprland
-mako # AUR
+mako			# AUR
 
 
 # Applications
@@ -18,9 +18,5 @@ kitty
 
 
 # Extra
-gtk3 # For kitty to work (validate)
-tldr
-libnotify # Testing mako
+gtk3			# For kitty to work (validate)
 
-# Uncategorized
-zsh

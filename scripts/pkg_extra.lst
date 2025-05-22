@@ -1,1 +1,4 @@
-# TODO: move extra pkgs into this file
+tldr		# literally tldr of man pages
+libnotify	# testing system notifications
+zsh		# 
+thefuck		# thefuck?
