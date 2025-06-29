@@ -2,15 +2,14 @@
 pipewire-audio
 pavucontrol
 
-
 # Backup
 rsync
-
 
 # Display Manager
 hyprland
 mako			# AUR
-
+grimblast-git		# AUR
+xdg-desktop-portal-hyprland
 
 # Applications
 firefox
@@ -19,4 +18,3 @@ kitty
 
 # Extra
 gtk3			# For kitty to work (validate)
-
