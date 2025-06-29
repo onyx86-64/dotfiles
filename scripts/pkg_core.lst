@@ -9,6 +9,7 @@ rsync
 hyprland
 mako			# AUR
 grimblast-git		# AUR
+wl-clipboard		# Required for grimblast-git
 xdg-desktop-portal-hyprland
 
 # Applications
