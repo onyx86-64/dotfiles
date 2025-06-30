@@ -11,6 +11,7 @@ qt6-wayland
 mako			# AUR
 grimblast-git		# AUR
 wl-clipboard		# Required for grimblast-git
+fuzzel
 xdg-desktop-portal-hyprland
 
 # Applications

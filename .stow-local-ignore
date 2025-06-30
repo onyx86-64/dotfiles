@@ -21,7 +21,9 @@ _darcs
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
+^/TODO.*
 
+^/Makefile
 
 git
 scripts
