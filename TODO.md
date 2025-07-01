@@ -5,6 +5,7 @@
 - <s>validate the randomness of the screenshotted image</s>  
 - <s>check if an authentication agent is required (hypr.land/useful-utilities/must-have/)</s>  
 - check out - https://wiki.hypr.land/Getting-Started/Master-Tutorial/#apps--x11-replacements  
-- configure a shortcut helper  
+- <s>configure a shortcut helper</s>  
+- fix choosing kitty from fuzzel --dmenu resulting in error
 - install neovim/lazyvim  
 - configuire mullvad VPN 	| later  
