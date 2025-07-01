@@ -7,5 +7,6 @@
 - check out - https://wiki.hypr.land/Getting-Started/Master-Tutorial/#apps--x11-replacements  
 - <s>configure a shortcut helper</s>  
 - fix choosing kitty from fuzzel --dmenu resulting in error
+- fix missing keybinds from the keybind viewer
 - install neovim/lazyvim  
 - configuire mullvad VPN 	| later  
