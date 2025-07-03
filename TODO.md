@@ -4,9 +4,10 @@
 - <s>figure out how grimblast copy area works (not saving to clipboard for some reason)</s>  
 - <s>validate the randomness of the screenshotted image</s>  
 - <s>check if an authentication agent is required (hypr.land/useful-utilities/must-have/)</s>  
-- check out - https://wiki.hypr.land/Getting-Started/Master-Tutorial/#apps--x11-replacements  
 - <s>configure a shortcut helper</s>  
-- fix choosing kitty from fuzzel --dmenu resulting in error
-- fix missing keybinds from the keybind viewer
+- <s>fix choosing kitty from fuzzel --dmenu resulting in error</s>
+- <s>fix missing keybinds from the keybind viewer</s>
+- check cursors https://wiki.hypr.land/Getting-Started/Master-Tutorial/#cursors
+- start with https://wiki.hypr.land/Configuring/
 - install neovim/lazyvim  
 - configuire mullvad VPN 	| later  
