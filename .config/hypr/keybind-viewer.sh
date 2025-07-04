@@ -18,7 +18,8 @@ if [ -z "$selected" ]; then
 fi
 
 dispatcher=$(echo "$selected" | awk '{print $2}' | cut -d: -f2)
-arg=$(echo "$selected" | awk '{print $3}' | cut -d: -f2-)
+arg=$(echo "$selected" | sed -n 's/.*arg:\s*\(.*\)/\1/p')
+
 
 if [ "$dispatcher" = "exec" ]; then
   if [ -n "$arg" ]; then
