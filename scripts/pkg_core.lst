@@ -5,6 +5,9 @@ pavucontrol
 # Backup
 rsync
 
+# Text editor
+neovim
+
 # Display Manager
 hyprland
 qt6-wayland

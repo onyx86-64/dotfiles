@@ -11,8 +11,10 @@
 - figure out opacity not working in kitty
 - check cursors https://wiki.hypr.land/Getting-Started/Master-Tutorial/#cursors
 - start with https://wiki.hypr.land/Configuring/
-  - waybar
+  - <s>waybar</s>
   - hyprlock or different screen locking utility
-- install neovim/lazyvim  
+- <s>install neovim/lazyvim</s> 
+- configure waybar
+- configure nvim
 - check out SearchXNG
 - configuire mullvad VPN 	| later  
