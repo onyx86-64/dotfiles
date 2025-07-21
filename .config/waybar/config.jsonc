@@ -1,12 +1,44 @@
 {
     "layer": "top",
-    "modules-left": ["sway/workspaces", "sway/mode"],
-    "modules-center": ["hyprland/window"],
-    "modules-right": ["clock"],
+    "modules-left": [
+	"hyprland/workspaces",
+	"submap"
+    ],
+    "modules-center": [
+	"hyprland/window"
+    ],
+    "modules-right": [
+	"pulseaudio",
+	"clock#date",
+	"clock#time"
+    ],
     "hyprland/window": {
         "max-length": 50
     },
-    "clock": {
-        "format-alt": "{:%a, %d. %b  %H:%M}"
+    "pulseaudio": {
+	"format": "{icon} {volume}% {format_source}",
+	"format": "{icon} {volume}% {format_source}",
+	"format-muted": "🔇 {format_source}",
+
+	"format-source": " {volume}%",
+	"format-source-muted": "",
+
+	"format-icons": {
+		"headphones": "",
+		"handsfree": "",
+		"headset": "",
+		"default": ["🔈", "🔉", "🔊"]
+	},
+	"on-click": "pavucontrol"
+    },
+    "clock#date": {
+	"interval": 20,
+	"format": "{:%e %b %Y}",
+	"tooltip": false
+    },
+    "clock#time": {
+	"interval": 10,
+	"format": "{:%H:%M}",
+	"tooltip": false
     }
 }
