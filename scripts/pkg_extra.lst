@@ -1,5 +1,5 @@
-tldr		# literally tldr of man pages
-libnotify	# testing system notifications
-zsh		# 
-thefuck		# thefuck?
-otf-font-awesome
+tldr			# literally tldr of man pages
+libnotify		# testing system notifications
+zsh			# 
+thefuck			# thefuck?
+otf-font-awesome	# required for waybar icons

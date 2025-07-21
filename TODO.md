@@ -15,6 +15,7 @@
   - hyprlock or different screen locking utility
 - <s>install neovim/lazyvim</s> 
 - configure waybar
+  - fix pulseaudio volume icons
 - configure nvim
 - check out SearchXNG
 - configuire mullvad VPN 	| later  
