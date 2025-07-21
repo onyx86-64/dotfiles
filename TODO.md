@@ -16,6 +16,7 @@
 - <s>install neovim/lazyvim</s> 
 - configure waybar
   - fix pulseaudio volume icons
+  - add styling
 - configure nvim
 - check out SearchXNG
 - configuire mullvad VPN 	| later  
