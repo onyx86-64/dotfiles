@@ -6,7 +6,7 @@ pavucontrol
 rsync
 
 # Text editor
-neovim:wq
+neovim
 luarocks		# For lazy-vim plugin manager
 
 # Display Manager
@@ -29,3 +29,4 @@ libnotify		# testing system notifications
 zsh
 thefuck			# thefuck?
 otf-font-awesome	# required for waybar icons
+tree			# list contents of directories in a tree-like format
