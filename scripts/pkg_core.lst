@@ -6,7 +6,8 @@ pavucontrol
 rsync
 
 # Text editor
-neovim
+neovim:wq
+luarocks		# For lazy-vim plugin manager
 
 # Display Manager
 hyprland
@@ -21,6 +22,10 @@ xdg-desktop-portal-hyprland
 firefox
 kitty
 
-
 # Extra
 gtk3			# For kitty to work (validate)
+tldr			# literally tldr of man pages
+libnotify		# testing system notifications
+zsh
+thefuck			# thefuck?
+otf-font-awesome	# required for waybar icons
