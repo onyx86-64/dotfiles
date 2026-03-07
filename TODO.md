@@ -7,6 +7,9 @@
 - <s>configure a shortcut helper</s>  
 - <s>fix choosing kitty from fuzzel --dmenu resulting in error</s>
 - <s>fix missing keybinds from the keybind viewer</s>
+- fix nvim autoformatting on :w e.g.
+  `done < pkgcore.txt` gets formatted to `done <pkgcore.txt`
+- nvim_buf_get_text error 
 - <s>fix some fommands not working through fuzzel --dmenu</s>
 - figure out opacity not working in kitty
 - check cursors https://wiki.hypr.land/Getting-Started/Master-Tutorial/#cursors
