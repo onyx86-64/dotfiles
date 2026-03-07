@@ -14,6 +14,7 @@
   - <s>waybar</s>
   - hyprlock or different screen locking utility
 - <s>install neovim/lazyvim</s> 
+  - change the colorscheme to match the system 
 - configure waybar
   - fix pulseaudio volume icons
   - add styling
