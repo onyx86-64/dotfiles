@@ -5,7 +5,6 @@ grub                      # GRUB bootloader (if you're using it)
 dosfstools                # Utilities for FAT filesystems
 hdparm                    # Disk utility for tuning and configuring hard drives
 intel-ucode               # Microcode for Intel processors
-lib32-nvidia-utils        # 32-bit NVIDIA libraries (for multilib support)
 
 # Backup
 rsync                     # Backup utility

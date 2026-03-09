@@ -1,3 +1,9 @@
+# Display Drivers
+nvidia-580xx-dkms
+nvidia-580xx-utils
+lib32-nvidia-580xx-utils
+nvidia-580xx-settings
+
 # Display Manager
 mako                      # Simple notification daemon
 grimblast-git             # Wayland screenshot utility

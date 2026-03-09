@@ -1,1 +1,1 @@
-pacstrap -K /mnt base linux linux-firmware intel-ucode networkmanager nano man-db man-pages texinfo git openssh fastfetch
+pacstrap -K /mnt base linux linux-firmware linux-headers intel-ucode networkmanager nano man-db man-pages texinfo git openssh fastfetch
