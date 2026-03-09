@@ -12,7 +12,7 @@
 - nvim_buf_get_text error 
 - <s>fix some fommands not working through fuzzel --dmenu</s>
 - figure out opacity not working in kitty
-- check cursors https://wiki.hypr.land/Getting-Started/Master-Tutorial/#cursors
+- <s></s>check cursors https://wiki.hypr.land/Getting-Started/Master-Tutorial/#cursors</s>
 - start with https://wiki.hypr.land/Configuring/
   - <s>waybar</s>
   - hyprlock or different screen locking utility
@@ -21,6 +21,7 @@
 - configure waybar
   - fix pulseaudio volume icons
   - add styling
+- fix new monitor audio not playing
 - configure nvim
 - check out SearchXNG
 - configuire mullvad VPN 	| later  
