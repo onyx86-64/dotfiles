@@ -20,6 +20,9 @@ wl-clipboard              # Clipboard utility for Wayland (required for grimblas
 fuzzel                    # Wayland status bar
 xdg-desktop-portal-hyprland # XDG desktop portal for Hyprland
 
+# nwg
+nwg-look                  # GTK3 settings editor for Wayland
+
 # Applications
 firefox                   # Web browser
 kitty                     # Terminal emulator
