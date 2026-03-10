@@ -1,57 +1,58 @@
 # System
-base                      # Core system package group
-efibootmgr                # EFI boot manager
-grub                      # GRUB bootloader (if you're using it)
-dosfstools                # Utilities for FAT filesystems
-hdparm                    # Disk utility for tuning and configuring hard drives
-intel-ucode               # Microcode for Intel processors
+base                        # Core system package group
+efibootmgr                  # EFI boot manager
+grub                        # GRUB bootloader (if you're using it)
+dosfstools                  # Utilities for FAT filesystems
+hdparm                      # Disk utility for tuning and configuring hard drives
+intel-ucode                 # Microcode for Intel processors
 
 # Backup
-rsync                     # Backup utility
+rsync                       # Backup utility
 
 # Text editor
-neovim                    # Modern text editor
-luarocks                  # Lua package manager for lazy-vim plugin manager
+neovim                      # Modern text editor
+luarocks                    # Lua package manager for lazy-vim plugin manager
 
 # Display Manager
-hyprland                  # Wayland compositor
-qt6-wayland               # Qt 6 support for Wayland
-wl-clipboard              # Clipboard utility for Wayland (required for grimblast-git)
-fuzzel                    # Wayland status bar
+hyprland                    # Wayland compositor
+qt6-wayland                 # Qt 6 support for Wayland
+wl-clipboard                # Clipboard utility for Wayland (required for grimblast-git)
+fuzzel                      # Wayland status bar
 xdg-desktop-portal-hyprland # XDG desktop portal for Hyprland
+hyprpaper                   # IPC-controlled wallpaper utility for HYprland
 
 # nwg
-nwg-look                  # GTK3 settings editor for Wayland
+nwg-look                    # GTK3 settings editor for Wayland
 
 # Applications
-firefox                   # Web browser
-kitty                     # Terminal emulator
+firefox                     # Web browser
+kitty                       # Terminal emulator
 
 # Extra
-gtk3                      # GTK3, required for some apps (e.g., kitty)
-tldr                      # Tldr pages (simplified man pages)
-libnotify                 # Library for desktop notifications
-zsh                       # Z Shell
-thefuck                   # thefuck?
-otf-font-awesome          # Font Awesome for icons in Waybar
-tree                      # Directory tree viewer
+gtk3                        # GTK3, required for some apps (e.g., kitty)
+tldr                        # Tldr pages (simplified man pages)
+libnotify                   # Library for desktop notifications
+zsh                         # Z Shell
+thefuck                     # thefuck?
+otf-font-awesome            # Font Awesome for icons in Waybar
+tree                        # Directory tree viewer
 
 # Tools
-fastfetch                 # System information tool
-man-db                    # Man page utilities
-man-pages                 # Man pages for Unix commands
-texinfo                   # Info documentation system
-git                       # Version control system
-openssh                   # OpenSSH for remote access
-networkmanager            # Network management daemon
-nano                      # Simple text editor
+fastfetch                   # System information tool
+man-db                      # Man page utilities
+man-pages                   # Man pages for Unix commands
+texinfo                     # Info documentation system
+git                         # Version control system
+openssh                     # OpenSSH for remote access
+networkmanager              # Network management daemon
+nano                        # Simple text editor
 
 # Audio/Media
-pipewire-audio            # PipeWire audio server
-pavucontrol               # GUI for managing PulseAudio
-pipewire-pulse            # PulseAudio replacement for PipeWire
-mpv                       # Media player
-sound-theme-freedesktop   # Desktop sound theme
+pipewire-audio              # PipeWire audio server
+pavucontrol                 # GUI for managing PulseAudio
+pipewire-pulse              # PulseAudio replacement for PipeWire
+mpv                         # Media player
+sound-theme-freedesktop     # Desktop sound theme
 
 # AUR helper
-yay                       # AUR helper for managing AUR packages (including yay-debug for debugging)
+yay                         # AUR helper for managing AUR packages (including yay-debug for debugging)

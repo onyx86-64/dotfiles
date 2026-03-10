@@ -10,6 +10,10 @@
 - fix nvim autoformatting on :w e.g.
   `done < pkgcore.txt` gets formatted to `done <pkgcore.txt`
 - nvim_buf_get_text error 
+- add hyprlang support for nvim
+- prepare initial hyprland file structure
+  - <s>create files</s>
+  - separate the configuration
 - <s>fix some fommands not working through fuzzel --dmenu</s>
 - figure out opacity not working in kitty
 - <s></s>check cursors https://wiki.hypr.land/Getting-Started/Master-Tutorial/#cursors</s>
@@ -21,7 +25,7 @@
 - configure waybar
   - fix pulseaudio volume icons
   - add styling
-- fix new monitor audio not playing
+- <s>fix new monitor audio not playing</s>
 - configure nvim
 - check out SearchXNG
 - configuire mullvad VPN 	| later  
