@@ -1,0 +1,23 @@
+* {
+    font-family: "JetBrains Mono";
+    font-size: 13px;
+}
+
+window#waybar {
+    background: rgba(29, 32, 33, 1);
+    color: #cdd6f4;
+    border-bottom: 1px solid #d79921;
+}
+
+#clock {
+    padding: 0 10px;
+    color: #f9e2af;
+}
+
+#battery.warning {
+    color: #fab387;
+}
+
+#battery.critical {
+    color: #f38ba8;
+}

@@ -9,11 +9,24 @@
   ],
   "modules-right": [
     "pulseaudio",
+    "cpu",
+    "memory",
+    "battery",
     "clock#date",
-    "clock#time"
+    "clock#time",
+    "custom/power"
   ],
   "hyprland/window": {
     "max-length": 50
+  },
+  "battery": {
+    "interval": 60,
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""]
   },
   "pulseaudio": {
     "format": "{icon} {volume}% {format_source}",
@@ -41,5 +54,9 @@
     "interval": 10,
     "format": "{:%H:%M}",
     "tooltip": false
-  }
+  },
+  "custom/power": {
+    "format": "⏻",
+    "on-click": "wlogout"
+}
 }
