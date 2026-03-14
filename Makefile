@@ -1,7 +1,7 @@
 # Backup
 
 rs-backup:
-	./rsync.sh
+	./scripts/rsync.sh
 
 # Restore
 # TODO
