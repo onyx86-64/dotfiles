@@ -7,27 +7,26 @@
 - <s>configure a shortcut helper</s>  
 - <s>fix choosing kitty from fuzzel --dmenu resulting in error</s>
 - <s>fix missing keybinds from the keybind viewer</s>
-- fix nvim autoformatting on :w e.g.
-  `done < pkgcore.txt` gets formatted to `done <pkgcore.txt`
-- nvim_buf_get_text error 
-- add hyprlang support for nvim
+- <s>fix new monitor audio not playing</s>
+- <s>fix some commands not working through fuzzel --dmenu</s>
+- <s>figure out opacity not working in kitty</s>
+- <s>check cursors https://wiki.hypr.land/Getting-Started/Master-Tutorial/#cursors</s>
+- <s>configure waybar</s>
+  - <s>fix pulseaudio volume icons</s>
+  - <s>add styling</s>
 - prepare initial hyprland file structure
   - <s>create files</s>
   - separate the configuration
-- <s>fix some fommands not working through fuzzel --dmenu</s>
-- figure out opacity not working in kitty
-- <s></s>check cursors https://wiki.hypr.land/Getting-Started/Master-Tutorial/#cursors</s>
 - start with https://wiki.hypr.land/Configuring/
-  - <s>waybar</s>
+- waybar
   - hyprlock or different screen locking utility
-- <s>install neovim/lazyvim</s> 
-  - change the colorscheme to match the system 
-- configure waybar
-  - <s>fix pulseaudio volume icons</s>
-  - <s>add styling</s>
-  - fix hyprlock blackscreen
+  - fix hyprlock blackscreen (add a proper hyprlock.conf)
 - Investigate if hyprland.conf requires the PATH env var for waybar-module-pomodoro to work (look for a better solution)
-- <s>fix new monitor audio not playing</s>
 - configure nvim
+  - add hyprlang support for nvim
+  - change the colorscheme to match the system 
+  - fix nvim autoformatting on :w e.g.
+    `done < pkgcore.txt` gets formatted to `done <pkgcore.txt`
+  - nvim_buf_get_text error 
 - check out SearchXNG
 - configuire mullvad VPN 	| later  
