@@ -47,7 +47,7 @@ git                         # Version control system
 openssh                     # OpenSSH for remote access
 networkmanager              # Network management daemon
 nm-connection-editor        # Network Manager GUI
-ghostty
+ghostty                     # Terminal emulator that uses platform-native UI and GPU acceleration
 nano                        # Simple text editor
 
 # Audio/Media
