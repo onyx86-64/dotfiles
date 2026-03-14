@@ -28,5 +28,6 @@
   - fix nvim autoformatting on :w e.g.
     `done < pkgcore.txt` gets formatted to `done <pkgcore.txt`
   - nvim_buf_get_text error 
+- automatically fill stuff like uwsm, .zshrc while installing the dotfiles instead of providing them in the git repo(?)
 - check out SearchXNG
 - configuire mullvad VPN 	| later  
