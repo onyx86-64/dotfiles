@@ -20,6 +20,7 @@ wl-clipboard                # Clipboard utility for Wayland (required for grimbl
 fuzzel                      # Wayland status bar
 xdg-desktop-portal-hyprland # XDG desktop portal for Hyprland
 hyprpaper                   # IPC-controlled wallpaper utility for HYprland
+hyprlock                    # Hyprland multi-threaded and GPU-accelerated screen locking utility
 
 # nwg
 nwg-look                    # GTK3 settings editor for Wayland
@@ -45,6 +46,8 @@ texinfo                     # Info documentation system
 git                         # Version control system
 openssh                     # OpenSSH for remote access
 networkmanager              # Network management daemon
+nm-connection-editor        # Network Manager GUI
+ghostty
 nano                        # Simple text editor
 
 # Audio/Media
@@ -53,6 +56,13 @@ pavucontrol                 # GUI for managing PulseAudio
 pipewire-pulse              # PulseAudio replacement for PipeWire
 mpv                         # Media player
 sound-theme-freedesktop     # Desktop sound theme
+
+# Development
+rust
+
+# Fonts (for waybar)
+inter-font
+ttf-noto-nerd
 
 # AUR helper
 yay                         # AUR helper for managing AUR packages (including yay-debug for debugging)

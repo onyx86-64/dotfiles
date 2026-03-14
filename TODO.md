@@ -23,8 +23,10 @@
 - <s>install neovim/lazyvim</s> 
   - change the colorscheme to match the system 
 - configure waybar
-  - fix pulseaudio volume icons
-  - add styling
+  - <s>fix pulseaudio volume icons</s>
+  - <s>add styling</s>
+  - fix hyprlock blackscreen
+- Investigate if hyprland.conf requires the PATH env var for waybar-module-pomodoro to work (look for a better solution)
 - <s>fix new monitor audio not playing</s>
 - configure nvim
 - check out SearchXNG

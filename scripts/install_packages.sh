@@ -27,3 +27,24 @@ install_packages "yay" "pkgaur.txt"
 zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1
 
 echo "Package installation complete!"
+
+echo "Installing Waybar pomodoro module..."
+
+mkdir -p "$HOME/.local/bin"
+
+TMP_DIR=$(mktemp -d)
+echo "Cloning repository into $TMP_DIR..."
+git clone https://github.com/Andeskjerf/waybar-module-pomodoro.git "$TMP_DIR"
+
+cd "$TMP_DIR"
+echo "Building release..."
+cargo build --release
+
+echo "Copying binary to ~/.local/bin..."
+cp target/release/waybar-module-pomodoro "$HOME/.local/bin/"
+
+echo "Removing temporary build directory..."
+cd ~
+rm -rf "$TMP_DIR"
+
+echo "waybar-module-pomodoro installed successfully!"
