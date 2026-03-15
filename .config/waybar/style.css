@@ -84,7 +84,7 @@
   padding: 0.3rem 0.7rem;
   margin: 5px 0px;
   border-radius: 6px; /* This module is always rounded */
-  box-shadow: 0 1px 3px rgba(215, 153, 33, 0.2);
+  /* box-shadow: 0 1px 3px rgba(215, 153, 33, 0.2); */
   min-width: 0;
   border: none;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -169,6 +169,12 @@
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   margin-right: 7px;
+}
+
+#custom-lock {
+  margin-right: 7px; /* Margin from the far left edge */
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 #custom-uptime {

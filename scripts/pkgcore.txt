@@ -50,6 +50,7 @@ networkmanager              # Network management daemon
 nm-connection-editor        # Network Manager GUI
 ghostty                     # Terminal emulator that uses platform-native UI and GPU acceleration
 nano                        # Simple text editor
+blueman                     # Bluetooth manager
 
 # Audio/Media
 pipewire-audio              # PipeWire audio server

@@ -81,9 +81,9 @@
     "exec": "$HOME/.config/waybar/scripts/uptime.sh"
   },
   "backlight": {
-        "format": "{icon}  {percent}%",
-        "format-icons": ["","󰃜", "󰃛", "󰃞","󰃝","󰃟","󰃠"],
-        "tooltip": false
+    "format": "{icon}  {percent}%",
+    "format-icons": ["","󰃜", "󰃛", "󰃞","󰃝","󰃟","󰃠"],
+    "tooltip": false
   },
   "pulseaudio": {
     "format": "{icon}  {volume}%",

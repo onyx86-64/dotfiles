@@ -14,13 +14,14 @@
 - <s>configure waybar</s>
   - <s>fix pulseaudio volume icons</s>
   - <s>add styling</s>
-- prepare initial hyprland file structure
+- <s>prepare initial hyprland file structure</s>
   - <s>create files</s>
-  - separate the configuration
+  - <s>separate the configuration</s>
 - start with https://wiki.hypr.land/Configuring/
 - waybar
   - <s>hyprlock or different screen locking utility</s>
   - fix hyprlock blackscreen (add a proper hyprlock.conf)
+  - clean up the config.jsonc and style.css files from unused stuff
 - Investigate if hyprland.conf requires the PATH env var for waybar-module-pomodoro to work (look for a better solution)
 - configure nvim
   - add hyprlang support for nvim
@@ -29,5 +30,6 @@
     `done < pkgcore.txt` gets formatted to `done <pkgcore.txt`
   - nvim_buf_get_text error 
 - automatically fill stuff like uwsm, .zshrc while installing the dotfiles instead of providing them in the git repo(?)
+- fix the keybind viewer
 - check out SearchXNG
 - configuire mullvad VPN 	| later  

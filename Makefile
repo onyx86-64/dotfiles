@@ -9,4 +9,4 @@ rs-backup:
 # Sync stow
 
 ssync:
-	stow -D . && stow .  # is symlink removal necessary?
+	stow -D . && stow . && hyprctl reload
