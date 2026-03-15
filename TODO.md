@@ -24,7 +24,6 @@
   - clean up the config.jsonc and style.css files from unused stuff
 - Investigate if hyprland.conf requires the PATH env var for waybar-module-pomodoro to work (look for a better solution)
 - configure nvim
-  - add hyprlang support for nvim
   - change the colorscheme to match the system 
   - fix nvim autoformatting on :w e.g.
     `done < pkgcore.txt` gets formatted to `done <pkgcore.txt`
