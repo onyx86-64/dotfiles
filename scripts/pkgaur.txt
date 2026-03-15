@@ -6,7 +6,6 @@ nvidia-580xx-settings
 
 # Display Manager
 mako                      # Simple notification daemon
-grimblast-git             # Wayland screenshot utility
 
 # Fonts (for waybar)
 apple-fonts

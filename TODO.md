@@ -29,7 +29,9 @@
   - fix nvim autoformatting on :w e.g.
     `done < pkgcore.txt` gets formatted to `done <pkgcore.txt`
   - nvim_buf_get_text error 
+- adjust the theme of tools such as grim, satty, pulseaudio, ghostty etc.
 - automatically fill stuff like uwsm, .zshrc while installing the dotfiles instead of providing them in the git repo(?)
 - fix the keybind viewer
+- fix brightnessctl
 - check out SearchXNG
 - configuire mullvad VPN 	| later  

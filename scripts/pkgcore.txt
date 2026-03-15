@@ -17,11 +17,14 @@ luarocks                    # Lua package manager for lazy-vim plugin manager
 uwsm                        # Universal Wayland Session Manager (hyprland startup)
 hyprland                    # Wayland compositor
 qt6-wayland                 # Qt 6 support for Wayland
-wl-clipboard                # Clipboard utility for Wayland (required for grimblast-git)
+grim                        # Command-line utility for screenshots
+satty                       # Screenshot annotation utility
+wl-clipboard                # Clipboard utility for Wayland (required for grim)
 fuzzel                      # Wayland status bar
 xdg-desktop-portal-hyprland # XDG desktop portal for Hyprland
 hyprpaper                   # IPC-controlled wallpaper utility for HYprland
 hyprlock                    # Hyprland multi-threaded and GPU-accelerated screen locking utility
+hypridle                    # HYprland's idle management daemon
 
 # nwg
 nwg-look                    # GTK3 settings editor for Wayland
@@ -51,6 +54,7 @@ nm-connection-editor        # Network Manager GUI
 ghostty                     # Terminal emulator that uses platform-native UI and GPU acceleration
 nano                        # Simple text editor
 blueman                     # Bluetooth manager
+brightnessctl               # Read and controll device brightness
 
 # Audio/Media
 pipewire-audio              # PipeWire audio server

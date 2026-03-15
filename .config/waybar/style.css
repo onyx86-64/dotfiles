@@ -53,8 +53,16 @@
 
 /* Simple Hover effects for individual left modules - BRIGHTER COLOR */
 #custom-uptime:hover,
-#cpu:hover {
-  background-color: rgb(41, 42, 53); /* Brighter highlight */
+#cpu:hover,
+#memory:hover,
+#clock:hover,
+#custom-pomodoro:hover,
+#bluetooth:hover,
+#pulseaudio:hover,
+#network:hover,
+#custom-lock:hover,
+#battery:hover {
+  background-color: rgba(215, 153, 33, 0.25); /* Brighter highlight */
 }
 
 #workspaces button {
@@ -74,7 +82,7 @@
 }
 
 #workspaces button:hover {
-  background: rgb(41, 42, 53); /* Reference bright hover color */
+  background: rgba(215, 153, 33, 0.25); /* Reference bright hover color */
   color: #d79921;
 }
 
@@ -88,11 +96,6 @@
   min-width: 0;
   border: none;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-
-/* Simple Hover effect for clock module - BRIGHTER COLOR */
-#clock:hover {
-  background-color: rgba(215, 153, 33, 0.1); /* Brighter highlight */
 }
 
 #custom-pomodoro {
@@ -114,14 +117,6 @@
 #custom-pomodoro {
   margin-left: 5px; /* Spacing from the previous module (e.g., clock) */
   margin-right: 5px; /* Spacing before the seamless right bar starts (e.g., bluetooth) */
-}
-
-/* Hover effect for the new pomodoro module (consistent with others + rectangular outline) */
-#custom-pomodoro:hover {
-  background-color: rgb(41, 42, 53); /* Brighter highlight, consistent with other individual modules */
-  color: #d79921; /* Text color change on hover, consistent with other individual modules */
-  outline: 1px solid rgba(255, 255, 255, 0.1); /* Rectangular outline on hover */
-  outline-offset: -1px;
 }
 
 /* --- Highlighted state for Pomodoro module when running (work or break) --- */
@@ -148,15 +143,6 @@
   min-width: 0;
   border: none;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-
-#bluetooth:hover,
-#pulseaudio:hover,
-#backlight:hover,
-#network:hover,
-#custom-lock:hover,
-#battery:hover {
-  background-color: rgb(41, 42, 53);
 }
 
 #bluetooth {
