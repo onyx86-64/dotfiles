@@ -20,7 +20,7 @@
 - start with https://wiki.hypr.land/Configuring/
 - waybar
   - <s>hyprlock or different screen locking utility</s>
-  - fix hyprlock blackscreen (add a proper hyprlock.conf)
+  - <s>fix hyprlock blackscreen (add a proper hyprlock.conf)</s>
   - clean up the config.jsonc and style.css files from unused stuff
 - Investigate if hyprland.conf requires the PATH env var for waybar-module-pomodoro to work (look for a better solution)
 - configure nvim
