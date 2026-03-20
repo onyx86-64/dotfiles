@@ -22,7 +22,7 @@
   - <s>hyprlock or different screen locking utility</s>
   - <s>fix hyprlock blackscreen (add a proper hyprlock.conf)</s>
   - clean up the config.jsonc and style.css files from unused stuff
-- Investigate if hyprland.conf requires the PATH env var for waybar-module-pomodoro to work (look for a better solution)
+- <s>Investigate if hyprland.conf requires the PATH env var for waybar-module-pomodoro to work (look for a better solution)</s>
 - configure nvim
   - change the colorscheme to match the system 
   - fix nvim autoformatting on :w e.g.
