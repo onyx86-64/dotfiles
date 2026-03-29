@@ -55,6 +55,7 @@ ghostty                     # Terminal emulator that uses platform-native UI and
 nano                        # Simple text editor
 blueman                     # Bluetooth manager
 brightnessctl               # Read and controll device brightness
+ripgrep
 
 # Audio/Media
 pipewire-audio              # PipeWire audio server
